@@ -23,9 +23,7 @@ A simple theme for Emulation Station and RetroPie with support for the video vie
 
 ##Acknowledgements
 
-- Inspired by old system poster designs
--- Example: http://arcadesushi.com/550/files/2013/08/genesisPoster2.jp
-
+- Inspired by old console poster designs (see: http://imgur.com/J4eeTun and http://imgur.com/Ut0SWfJ for examples) 
 - All Logo graphics are from the default Carbom theme made by Eric Hettervik (see: https://github.com/RetroPie/es-theme-carbon/)
 - Static.mp4 default video from OldRoom theme by Nismo (see: https://retropie.org.uk/forum/topic/5823/looking-for-testers-for-es-video-preview-on-raspberry-pi/20)
 - Video support possible because of work done by fieldofcows (see: https://retropie.org.uk/forum/topic/4820/video-preview-in-emulationstation)
