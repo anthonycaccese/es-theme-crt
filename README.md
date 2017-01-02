@@ -1,5 +1,5 @@
 # CRT
-A simple theme for Emulation Station and RetroPies with support for the video view added by fieldofcows.  Originally based on the Carbon theme by Eric Hettervik; and then rebuilt from scratch to reorganize and lighten things further.
+A simple theme for Emulation Station and RetroPie with support for the video view added by fieldofcows.  Originally based on the Carbon theme by Eric Hettervik; and then rebuilt from scratch to reorganize and lighten things further.
 
 ##Preview
 
@@ -14,7 +14,17 @@ A simple theme for Emulation Station and RetroPies with support for the video vi
 
 [For more images view the album on Imgur](http://imgur.com/a/w7JNT)
 
+##Details
+
+- support for system, basic, detailed and video views
+- displays the following metadata on detailed and video views: rating, description, # of players, release date and genre
+- matching splashscreens included in the \_inc/images folder
+- tested on 720p and 1080p resolutions
+
 ##Acknowledgements
+
+- Inspired by old system poster designs
+-- Example: http://arcadesushi.com/550/files/2013/08/genesisPoster2.jp
 
 - All Logo graphics are from the default Carbom theme made by Eric Hettervik (see: https://github.com/RetroPie/es-theme-carbon/)
 - Static.mp4 default video from OldRoom theme by Nismo (see: https://retropie.org.uk/forum/topic/5823/looking-for-testers-for-es-video-preview-on-raspberry-pi/20)
