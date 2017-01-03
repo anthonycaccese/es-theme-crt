@@ -1,0 +1,17 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+		</image>
+	</view>
+
+	<view name="detailed,video">
+	  <text name="md_lbl_players,md_players,md_genre,md_releasedate,md_rating">
+         <pos>1 1</pos>
+      </text>
+    </view>
+
+</theme>

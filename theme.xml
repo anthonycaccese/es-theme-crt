@@ -1,0 +1,134 @@
+<!--
+theme name:     CRT
+version:        1.0
+author:         Anthony
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+   <view name="system">
+      <image name="system-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>true</tile>
+         <path>./_inc/images/background.png</path>
+      </image>
+   </view>
+
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <textColor>777777</textColor>
+         <iconColor>77777750</iconColor>
+      </helpsystem>
+   </view>
+
+   <view name="basic,detailed,video">
+      <image name="background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <tile>true</tile>
+         <path>./_inc/images/background.png</path>
+      </image>
+      <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.075</pos>
+         <maxSize>0.25 0.05</maxSize>
+      </image>
+      <textlist name="gamelist">
+         <pos>0.1875 0.175</pos>
+         <size>0.625 0.675</size>
+         <selectorColor>1c1c1c00</selectorColor>
+         <selectedColor>bba358</selectedColor>
+         <primaryColor>eaeaea</primaryColor>
+         <secondaryColor>eaeaea</secondaryColor>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.038</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound>./_inc/sounds/select.wav</scrollSound>
+         <alignment>center</alignment>
+      </textlist>
+   </view>
+
+   <view name="detailed,video">
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_description,md_lbl_players,md_players,md_genre,md_releasedate">
+         <color>777777</color>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.0242</fontSize>
+      </text>
+      <rating name="md_rating">
+         <pos>0.2 0.575</pos>
+         <size>0 0.025</size>
+         <filledPath>./_inc/images/star_filled.svg</filledPath>
+         <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+      </rating>
+      <text name="md_description">
+         <pos>0.2 0.625</pos>
+         <size>0.2625 0.175</size>
+         <color>cccccc</color>
+      </text>
+      <text name="md_lbl_players">
+         <pos>0.2 0.825</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <text name="md_players">
+         <pos>0.25 0.825</pos>
+         <size>0.0375 0.025</size>
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.275 0.825</pos>
+         <size>0.075 0.025</size>
+      </datetime>
+      <text name="md_genre">
+         <pos>0.3625 0.825</pos>
+         <size>0.1 0.025</size>
+      </text>
+      <image name="crt" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.325 0.35</pos>
+         <size>0.3125 0.425</size>
+         <path>./_inc/images/crt.png</path>
+      </image>
+      <textlist name="gamelist">
+         <pos>0.55 0.175</pos>
+         <size>0.3 0.675</size>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+
+   <view name="detailed">
+      <image name="md_image">
+         <origin>.5 .5</origin>
+         <pos>0.325 0.35</pos>
+         <maxSize>0.2125 0.275</maxSize>
+      </image>
+   </view>
+
+   <view name="video">
+      <image name="crt" extra="true">
+         <path>./_inc/images/crt-video.png</path>
+      </image>
+      <image name="md_image">
+         <origin>1 1</origin>
+         <pos>0.475 0.525</pos>
+         <maxSize>0.1375 0.125</maxSize>
+      </image>
+      <video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.325 0.35</pos>
+         <size>0.25 0.33</size>
+         <delay>0.01</delay>
+         <default>./_inc/videos/static.mp4</default>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+      </video>
+   </view>
+   
+</theme>
