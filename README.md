@@ -16,10 +16,10 @@ A simple theme for Emulation Station and RetroPie with support for the video vie
 
 ##Details
 
-- support for system, basic, detailed and video views
-- displays the following metadata on detailed and video views: rating, description, # of players, release date and genre
-- matching splashscreens included in the \_inc/images folder
-- tested on 720p and 1080p resolutions
+- Has support for system, basic, detailed and video views
+- Displays the following metadata on detailed and video views: rating, description, # of players, release date and genre
+- Matching splashscreens are included in the \_inc/images folder
+- Tested on 720p and 1080p resolutions
 
 ##Acknowledgements
 
