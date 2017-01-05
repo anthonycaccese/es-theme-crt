@@ -1,7 +1,12 @@
 # CRT
-A simple theme for Emulation Station and RetroPie with support for the video view added by fieldofcows.  Originally based on the Carbon theme by Eric Hettervik; and then rebuilt from scratch to reorganize and lighten things further.
+A simple theme for Emulation Station and RetroPie with support for the video view added by fieldofcows.  Originally based on the awesome Carbon theme by Eric Hettervik; and then rebuilt from scratch to reorganize and lighten things further.
 
 ##Preview
+
+###Video Walkthrough
+https://www.youtube.com/embed/_elwCV5hxeA
+
+###Screenshots
 
 **Video View**
 ![Video View](http://i.imgur.com/w5rNqyr.png)
@@ -13,6 +18,7 @@ A simple theme for Emulation Station and RetroPie with support for the video vie
 ![Basic View](http://i.imgur.com/npqHCZy.png)
 
 [For more images view the album on Imgur](http://imgur.com/a/w7JNT)
+
 
 ##Details
 
