@@ -75,19 +75,19 @@ based on:       "Carbon" by Eric Hettervik
          <color>cccccc</color>
       </text>
       <text name="md_lbl_players">
-         <pos>0.2 0.81</pos>
+         <pos>0.2 0.8</pos>
          <size>0.0625 0.025</size>
       </text>
       <text name="md_players">
-         <pos>0.25 0.81</pos>
+         <pos>0.25 0.8</pos>
          <size>0.0375 0.025</size>
       </text>
       <datetime name="md_releasedate">
-         <pos>0.275 0.81</pos>
+         <pos>0.275 0.8</pos>
          <size>0.075 0.025</size>
       </datetime>
       <text name="md_genre">
-         <pos>0.3625 0.81</pos>
+         <pos>0.3625 0.8</pos>
          <size>0.1 0.025</size>
       </text>
       <image name="crt" extra="true">
@@ -117,8 +117,8 @@ based on:       "Carbon" by Eric Hettervik
       </image>
       <image name="md_image">
          <origin>1 1</origin>
-         <pos>0.475 0.525</pos>
-         <maxSize>0.1375 0.125</maxSize>
+         <pos>0.475 0.530</pos>
+         <maxSize>0.0984375 0.175</maxSize>
       </image>
       <image name="md_marquee">
          <origin>0 0</origin>
