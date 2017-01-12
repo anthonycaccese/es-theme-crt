@@ -1,6 +1,15 @@
 # CRT
 A simple theme for Emulation Station and RetroPie with support for the video view added by fieldofcows.  Originally based on the awesome Carbon theme by Eric Hettervik; and then rebuilt from scratch so I could learn the theming system for ES
 
+---
+
+##Update 1/12/2017
+- Increased the size of boxart displayed on the video view
+- Replaced genre and release date metadata with last played (genre and release date metadata does not appear to be consistent and last played does look like it will be more helpful overall)
+- Tightened up spacing and reordered metadata on detail and video views
+
+---
+
 ##Preview
 
 ###Video Walkthrough
@@ -9,10 +18,10 @@ https://www.youtube.com/embed/_elwCV5hxeA
 ###Screenshots
 
 **Video View**
-![Video View](http://i.imgur.com/w5rNqyr.png)
+![Video View](http://i.imgur.com/OP2j1m8.png)
 
 **Detailed View**
-![Detailed View](http://i.imgur.com/HMzQKT1.png)
+![Detailed View](http://i.imgur.com/GbyZG6p.png)
 
 **Basic View**
 ![Basic View](http://i.imgur.com/npqHCZy.png)
@@ -23,9 +32,15 @@ https://www.youtube.com/embed/_elwCV5hxeA
 ##Details
 
 - Has support for system, basic, detailed and video views
-- Displays the following metadata on detailed and video views: rating, description, # of players, release date and genre
+- Displays the following metadata on detailed and video views: rating, description, # of players & last played
 - Matching splashscreens are included in the \_inc/images folder
-- Tested on 720p and 1080p resolutions
+- Tested on 720p and 1080p resolutions so far (need to finish my GBZ next to test TFT)
+
+##How to use
+
+- Requires a Pi2/3 (videos are very choppy on a Pi0/1)
+- Install latest version of retropie through the setup script (I know versions after 4.1.8 work)
+- Add <video> elements to your gamelist to reference videos for each game on your pi (videos can be stored anywhere just like images)
 
 ##Possible Future Updates
 
@@ -34,6 +49,7 @@ https://www.youtube.com/embed/_elwCV5hxeA
 - A centered version without metadata displayed (an example can be seen in the video walkthrough above and in this imgur album - http://imgur.com/a/2CSSk)
 - I have started following this thread - https://retropie.org.uk/forum/topic/6964/video-view-for-all-themes - and know I likely need to make updates for backwards compatibility
 - Child Friendly ES support - I need to install a version I can play with - will try to do that in the next few weeks
+- Grid view support
 
 ##Acknowledgments
 
