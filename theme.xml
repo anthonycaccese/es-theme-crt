@@ -85,14 +85,6 @@ based on:       "Carbon" by Eric Hettervik
          <pos>0.352 0.605</pos>
          <size>0.075 0.025</size>
       </datetime>
-      <!-- <datetime name="md_releasedate">
-         <pos>0.275 0.605</pos>
-         <size>0.075 0.025</size>
-      </datetime>
-      <text name="md_genre">
-         <pos>0.3625 0.605</pos>
-         <size>0.1 0.025</size>
-      </text> -->
       <text name="md_description">
          <pos>0.2 0.65</pos>
          <size>0.2625 0.175</size>
