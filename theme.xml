@@ -55,40 +55,48 @@ based on:       "Carbon" by Eric Hettervik
    </view>
 
    <view name="detailed,video">
-      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed, md_releasedate, md_genre">
          <pos>1 1</pos>
       </text>
-      <text name="md_description,md_lbl_players,md_players,md_genre,md_releasedate">
-         <color>777777</color>
+      <text name="md_description,md_lbl_players,md_players,md_genre,md_releasedate,md_lastplayed,md_lbl_lastplayed">
+         <color>555555</color>
          <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
          <fontSize>0.0242</fontSize>
       </text>
       <rating name="md_rating">
-         <pos>0.2 0.56</pos>
+         <pos>0.2 0.558</pos>
          <size>0 0.025</size>
          <filledPath>./_inc/images/star_filled.svg</filledPath>
          <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
       </rating>
-      <text name="md_description">
-         <pos>0.2 0.61</pos>
-         <size>0.2625 0.175</size>
-         <color>cccccc</color>
-      </text>
       <text name="md_lbl_players">
-         <pos>0.2 0.8</pos>
+         <pos>0.2 0.605</pos>
          <size>0.0625 0.025</size>
       </text>
       <text name="md_players">
-         <pos>0.25 0.8</pos>
+         <pos>0.25 0.605</pos>
          <size>0.0375 0.025</size>
       </text>
-      <datetime name="md_releasedate">
-         <pos>0.275 0.8</pos>
+      <text name="md_lbl_lastplayed">
+         <pos>0.28 0.605</pos>
+         <size>0.075 0.025</size>
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>0.352 0.605</pos>
+         <size>0.075 0.025</size>
+      </datetime>
+      <!-- <datetime name="md_releasedate">
+         <pos>0.275 0.605</pos>
          <size>0.075 0.025</size>
       </datetime>
       <text name="md_genre">
-         <pos>0.3625 0.8</pos>
+         <pos>0.3625 0.605</pos>
          <size>0.1 0.025</size>
+      </text> -->
+      <text name="md_description">
+         <pos>0.2 0.65</pos>
+         <size>0.2625 0.175</size>
+         <color>999999</color>
       </text>
       <image name="crt" extra="true">
          <origin>0.5 0.5</origin>
