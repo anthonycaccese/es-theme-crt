@@ -9,7 +9,7 @@
 	</view>
 
 	<view name="detailed,video">
-	  <text name="md_lbl_players,md_players,md_genre,md_releasedate,md_rating">
+	  <text name="md_lbl_players,md_players,md_genre,md_releasedate,md_rating,md_lbl_lastplayed,md_lastplayed">
          <pos>1 1</pos>
       </text>
     </view>
