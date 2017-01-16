@@ -3,7 +3,12 @@ A simple theme for Emulation Station and RetroPie with support for the video vie
 
 ---
 
-##Update 1/12/2017
+##Updates
+
+*1/15/2017*
+- Created "CRT Centered" theme variant - https://github.com/anthonycaccese/es-theme-crt-centered
+
+*1/12/2017*
 - Increased the size of boxart displayed on the video view
 - Replaced genre and release date metadata with last played (genre and release date metadata does not appear to be consistent and last played does look like it will be more helpful overall)
 - Tightened up spacing and reordered metadata on detail and video views
