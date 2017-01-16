@@ -3,7 +3,7 @@ A simple theme for Emulation Station and RetroPie with support for the video vie
 
 ---
 
-##Updates
+###Updates
 
 *1/15/2017*
 - Created "CRT Centered" theme variant - https://github.com/anthonycaccese/es-theme-crt-centered
@@ -51,7 +51,6 @@ https://www.youtube.com/embed/_elwCV5hxeA
 
 - Adding support for the new marquee tag
 - System specific backgrounds that match historical poster designs for a given system (I built an NES example to check out here: http://i.imgur.com/XCx3Tko.png)
-- A centered version without metadata displayed (an example can be seen in the video walkthrough above and in this imgur album - http://imgur.com/a/2CSSk)
 - I have started following this thread - https://retropie.org.uk/forum/topic/6964/video-view-for-all-themes - and know I likely need to make updates for backwards compatibility
 - Child Friendly ES support - I need to install a version I can play with - will try to do that in the next few weeks
 - Grid view support
