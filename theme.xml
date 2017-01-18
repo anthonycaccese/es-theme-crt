@@ -101,6 +101,27 @@ based on:       "Carbon" by Eric Hettervik
          <size>0.3 0.675</size>
          <alignment>left</alignment>
       </textlist>
+      <image name="md_hidden">
+         <origin>0 0</origin>
+         <pos>0.390625 0.558</pos>
+         <path>./_inc/images/hidden.svg</path>
+         <maxSize>0.01875 0.025</maxSize>
+         <color>bba35880</color>
+      </image>
+      <image name="md_kidgame">
+         <origin>0 0</origin>
+         <pos>0.4171875 0.558</pos>
+         <path>./_inc/images/kid.svg</path>
+         <maxSize>0.01875 0.025</maxSize>
+         <color>bba35880</color>
+      </image>
+      <image name="md_favorite">
+         <origin>0 0</origin>
+         <pos>0.4359375 0.558</pos>
+         <path>./_inc/images/favorite.svg</path>
+         <maxSize>0.01875 0.025</maxSize>
+         <color>bba35880</color>
+      </image>
    </view>
 
    <view name="detailed">
@@ -111,28 +132,30 @@ based on:       "Carbon" by Eric Hettervik
       </image>
    </view>
 
-   <view name="video">
-      <image name="crt" extra="true">
-         <path>./_inc/images/crt-video.png</path>
-      </image>
-      <image name="md_image">
-         <origin>1 1</origin>
-         <pos>0.475 0.530</pos>
-         <maxSize>0.0984375 0.175</maxSize>
-      </image>
-      <image name="md_marquee">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
-      </image>
-      <video name="md_video">
-         <origin>0.5 0.5</origin>
-         <pos>0.325 0.35</pos>
-         <size>0.25 0.33</size>
-         <delay>0.01</delay>
-         <default>./_inc/videos/static.mp4</default>
-         <showSnapshotNoVideo>false</showSnapshotNoVideo>
-         <showSnapshotDelay>false</showSnapshotDelay>
-      </video>
-   </view>
+   <!-- <feature supported="video"> -->
+      <view name="video">
+         <image name="crt" extra="true">
+            <path>./_inc/images/crt-video.png</path>
+         </image>
+         <image name="md_image">
+            <origin>1 1</origin>
+            <pos>0.475 0.530</pos>
+            <maxSize>0.0984375 0.175</maxSize>
+         </image>
+         <image name="md_marquee">
+            <origin>0 0</origin>
+            <pos>1 1</pos>
+         </image>
+         <video name="md_video">
+            <origin>0.5 0.5</origin>
+            <pos>0.325 0.35</pos>
+            <size>0.25 0.33</size>
+            <delay>0.01</delay>
+            <default>./_inc/videos/static.mp4</default>
+            <showSnapshotNoVideo>false</showSnapshotNoVideo>
+            <showSnapshotDelay>false</showSnapshotDelay>
+         </video>
+      </view>
+   <!-- </feature> -->
    
 </theme>
