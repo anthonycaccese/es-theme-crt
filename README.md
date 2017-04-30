@@ -30,13 +30,16 @@ https://www.youtube.com/embed/_elwCV5hxeA
 ### Screenshots
 
 *Video View*
-![Video View](http://i.imgur.com/Sru0u7l.png)
+![Video View](http://i.imgur.com/e6y0kIl.png)
 
 *Detailed View*
-![Detailed View](http://i.imgur.com/88bZLyr.png)
+![Detailed View](http://i.imgur.com/tA6mfEc.png)
 
 *Basic View*
 ![Basic View](http://i.imgur.com/npqHCZy.png)
+
+*4x3 Layout*
+![Basic View](http://i.imgur.com/pubsyyv.png)
 
 [For more images view the album on Imgur](http://imgur.com/a/w7JNT)
 
