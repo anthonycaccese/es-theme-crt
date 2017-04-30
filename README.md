@@ -1,4 +1,4 @@
-# CRT
+# CRT, an EmulationStation theme with video support
 A simple theme for Emulation Station and RetroPie with support for the video view added by fieldofcows.  Originally based on the awesome Carbon theme by Eric Hettervik; and then rebuilt from scratch so I could learn the theming system for ES
 
 ---
