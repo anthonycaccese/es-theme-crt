@@ -8,8 +8,8 @@ A simple theme for Emulation Station and RetroPie with support for the video vie
 *4/30/2017*
 - Fixed box art scaling issue on video view
 - Added 4x3 layout option
-- Added genre, publish date metadata display
-- Added backwards compatibility check for older versions of retropie without video support
+- Added display of genre and release date metadata
+- Added backward compatibility check for older versions of retropie without video support
 - Added child friendly ES support
 
 *1/15/2017*
@@ -55,12 +55,12 @@ https://www.youtube.com/embed/_elwCV5hxeA
 ## How to use
 
 - Requires a Pi2/3 (videos are very choppy on a Pi0/1)
-- Install latest version of retropie through the setup script (ersions after 4.1.8 work)
+- Install latest version of retropie through the setup script (versions after 4.1.8 work)
 - Add <video> elements to your gamelist to reference videos for each game on your pi (videos can be stored anywhere just like images)
 
 ## Possible Future Updates
 
-- Adding support for marquee tag
+- Support for marquee tag
 - System specific backgrounds that match historical poster designs for a given system (I built an NES example to check out here: http://i.imgur.com/XCx3Tko.png)
 - Grid view support
 
