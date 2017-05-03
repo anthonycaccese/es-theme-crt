@@ -66,14 +66,6 @@ based on:       "Carbon" by Eric Hettervik
          <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
          <fontSize>0.0242</fontSize>
       </text>
-
-      <image name="crt" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.325 0.35</pos>
-         <size>0.3015625 0.425</size>
-         <path>./../images/crt.png</path>
-      </image>
-
       <rating name="md_rating">
          <pos>0.2 0.56</pos>
          <size>0.0140625 0.0236111111111111</size>
@@ -101,7 +93,6 @@ based on:       "Carbon" by Eric Hettervik
          <size>0.01796875 0.0277777777777778</size>
          <color>bba35880</color>
       </image>
-
       <text name="md_lbl_lastplayed">
          <pos>0.2 0.6</pos>
          <size>0.0796875 0.0361111111111111</size>
@@ -110,7 +101,6 @@ based on:       "Carbon" by Eric Hettervik
          <pos>0.279687 0.6</pos>
          <size>0.15625 0.0361111111111111</size>
       </datetime>
-
       <text name="md_lbl_players">
          <pos>0.2 0.635</pos>
          <size>0.05078125 0.0361111111111111</size>
@@ -127,13 +117,11 @@ based on:       "Carbon" by Eric Hettervik
          <pos>0.37 0.635</pos>
          <size>0.0825 0.0361111111111111</size>
       </text>
-
       <text name="md_description">
          <pos>0.2 0.69</pos>
          <size>0.2625 0.139</size>
          <color>999999</color>
       </text>
-
       <textlist name="gamelist">
          <pos>0.5421875 0.175</pos>
          <size>0.45 0.675</size>
@@ -142,17 +130,32 @@ based on:       "Carbon" by Eric Hettervik
    </view>
 
    <view name="detailed">
+      <image name="crt-bezel" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.325 0.35</pos>
+         <size>0.3015625 0.425</size>
+         <path>./../images/crt-bezel.svg</path>
+      </image>
       <image name="md_image">
          <origin>0.5 0.5</origin>
          <pos>0.325 0.35</pos>
          <maxSize>0.25 0.33</maxSize>
       </image>
+      <image name="crt-screen" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.325 0.35</pos>
+         <size>0.3015625 0.425</size>
+         <path>./../images/crt-screen.svg</path>
+      </image>
    </view>
 
    <feature supported="video">
       <view name="video">
-         <image name="crt" extra="true">
-            <path>./../images/crt-video.png</path>
+         <image name="crt-bezel" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.325 0.35</pos>
+            <size>0.3015625 0.425</size>
+            <path>./../images/crt-bezel.svg</path>
          </image>
          <image name="md_image">
             <origin>1 1</origin>
@@ -171,6 +174,35 @@ based on:       "Carbon" by Eric Hettervik
             <default>./../videos/static.mp4</default>
             <showSnapshotNoVideo>false</showSnapshotNoVideo>
             <showSnapshotDelay>false</showSnapshotDelay>
+         </video>
+      </view>
+   </feature>
+
+   <feature supported="z-index">
+      <view name="detailed,video">
+         <image name="crt-bezel" extra="true">
+            <zIndex>4</zIndex>
+         </image>
+         <image name="md_image">
+            <zIndex>3</zIndex>
+         </image>
+         <image name="crt-screen" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.325 0.35</pos>
+            <size>0.3015625 0.425</size>
+            <path>./../images/crt-screen.svg</path>
+            <zIndex>1</zIndex>
+         </image>
+      </view>
+      <view name="video">
+         <image name="md_image">
+            <zIndex>4</zIndex>
+         </image>
+         <image name="crt-bezel" extra="true">
+            <zIndex>3</zIndex>
+         </image>
+         <video name="md_video">
+            <zIndex>2</zIndex>
          </video>
       </view>
    </feature>
