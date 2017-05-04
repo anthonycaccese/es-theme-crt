@@ -1,9 +1,13 @@
 # CRT, an EmulationStation theme with video support
-A simple theme for Emulation Station and RetroPie with support for the video view added by fieldofcows.  Originally based on the awesome Carbon theme by Eric Hettervik; and then rebuilt from scratch so I could learn the theming system for ES
+A simple theme for Emulation Station and RetroPie with support for the video view added by fieldofcows.  Originally based on the Carbon theme by Eric Hettervik; and then rebuilt from scratch so I could learn the theming system for ES.  Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/7022/new-theme-crt-with-support-for-video-preview
 
 ---
 
 ### Updates
+
+*5/3/2017*
+- Updated CRT Bezel images from PNG to SVG to help with clean scaling on different resolutions
+- Added future support for z-index layering being discussed in this thread - https://retropie.org.uk/forum/topic/9785/z-index-support-for-themes
 
 *4/30/2017*
 - Fixed box art scaling issue on video view
