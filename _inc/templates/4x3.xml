@@ -123,8 +123,8 @@ based on:       "Carbon" by Eric Hettervik
          <color>999999</color>
       </text>
       <textlist name="gamelist">
-         <pos>0.55625 0.175</pos>
-         <size>0.435 0.675</size>
+         <pos>0.566 0.175</pos>
+         <size>0.35 0.675</size>
          <alignment>left</alignment>
       </textlist>
    </view>
