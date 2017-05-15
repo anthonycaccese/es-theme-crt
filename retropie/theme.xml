@@ -12,6 +12,12 @@
 	  <text name="md_lbl_players,md_players,md_genre,md_releasedate,md_rating,md_lbl_lastplayed,md_lastplayed">
          <pos>1 1</pos>
       </text>
+      <image name="md_lbl_lastplayed_slash,md_lbl_players_slash,md_releasedate_slash,md_genre_slash" extra="true">
+         <pos>1 1</pos>
+      </image>
+      <text name="md_description">
+         <pos>0.2015625 0.0277777777777778</pos>
+      </text>
     </view>
 
 </theme>
