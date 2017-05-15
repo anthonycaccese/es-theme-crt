@@ -39,7 +39,7 @@ based on:       "Carbon" by Eric Hettervik
          </carousel>
          <text name="systemInfo">
             <pos>0 0.58</pos>
-            <backgroundColor>000000bb</backgroundColor>
+            <backgroundColor>000000ff</backgroundColor>
             <color>444444</color>
             <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
             <fontSize>0.025</fontSize>
