@@ -22,10 +22,30 @@ based on:       "Carbon" by Eric Hettervik
 
    <view name="system,basic,detailed,video">
       <helpsystem name="help">
+         <pos>1 1</pos>
          <textColor>777777</textColor>
          <iconColor>77777750</iconColor>
       </helpsystem>
    </view>
+
+   <feature supported="carousel">
+      <view name="system">
+         <carousel name="systemcarousel">
+            <type>horizontal</type>
+            <color>00000088</color>
+            <logoSize>0.234375 0.2083333333333333</logoSize>
+            <logoScale>1</logoScale>
+            <maxLogoCount>3</maxLogoCount>
+         </carousel>
+         <text name="systemInfo">
+            <pos>0 0.58</pos>
+            <backgroundColor>000000bb</backgroundColor>
+            <color>444444</color>
+            <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
+            <fontSize>0.025</fontSize>
+         </text>
+      </view>
+   </feature>
 
    <view name="basic,detailed,video">
       <image name="background">
@@ -35,19 +55,19 @@ based on:       "Carbon" by Eric Hettervik
          <path>./../images/background.png</path>
       </image>
       <image name="logo">
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.075</pos>
-         <maxSize>0.35 0.06</maxSize>
+         <origin>0.5 0</origin>
+         <pos>0.5 0.0694444444444444</pos>
+         <maxSize>0.3125 0.0555555555555556</maxSize>
       </image>
       <textlist name="gamelist">
-         <pos>0.1875 0.175</pos>
-         <size>0.625 0.675</size>
+         <pos>0.1875 0.1958333333333333</pos>
+         <size>0.625 0.6944444444444444</size>
          <selectorColor>1c1c1c00</selectorColor>
          <selectedColor>bba358</selectedColor>
          <primaryColor>eaeaea</primaryColor>
          <secondaryColor>eaeaea</secondaryColor>
          <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
-         <fontSize>0.038</fontSize>
+         <fontSize>0.0375</fontSize>
          <forceUppercase>1</forceUppercase>
          <scrollSound>./../sounds/select.wav</scrollSound>
          <alignment>center</alignment>
@@ -64,67 +84,99 @@ based on:       "Carbon" by Eric Hettervik
       <text name="md_description,md_lastplayed,md_lbl_lastplayed,md_lbl_players,md_players,md_releasedate,md_genre">
          <color>555555</color>
          <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
-         <fontSize>0.0242</fontSize>
+         <fontSize>0.0222222222222222</fontSize>
       </text>
+
       <rating name="md_rating">
-         <pos>0.1 0.56</pos>
-         <size>0.01875 0.0236111111111111</size>
+         <pos>0.1020833333333333 0.5888888888888889</pos>
+         <size>0.3354166666666667 0.0277777777777778</size>
          <filledPath>./../images/star_filled.svg</filledPath>
          <unfilledPath>./../images/star_empty.svg</unfilledPath>
       </rating>
       <image name="md_hidden">
          <origin>0 0</origin>
-         <pos>0.3541666666666667 0.56</pos>
+         <pos>0.3541666666666667 0.5888888888888889</pos>
          <path>./../images/hidden.svg</path>
          <size>0.028125 0.0277777777777778</size>
          <color>bba35880</color>
       </image>
       <image name="md_kidgame">
          <origin>0 0</origin>
-         <pos>0.3895833333333333 0.56</pos>
+         <pos>0.3895833333333333 0.5888888888888889</pos>
          <path>./../images/kid.svg</path>
          <size>0.0166666666666667 0.0277777777777778</size>
          <color>bba35880</color>
       </image>
       <image name="md_favorite">
          <origin>0 0</origin>
-         <pos>0.4135416666666667 0.56</pos>
+         <pos>0.4135416666666667 0.5888888888888889</pos>
          <path>./../images/favorite.svg</path>
          <size>0.0239583333333333 0.0277777777777778</size>
          <color>bba35880</color>
       </image>
+
+      <image name="md_lbl_lastplayed_slash" extra="true">
+         <origin>0 0</origin>
+         <pos>0.1020833333333333 0.6444444444444444</pos>
+         <maxSize>0.009375 0.0277777777777778</maxSize>
+         <path>./../images/metadata.svg</path>
+      </image>
       <text name="md_lbl_lastplayed">
-         <pos>0.1 0.6</pos>
-         <size>0.10625 0.0361111111111111</size>
+         <pos>0.1135416666666667 0.6444444444444444</pos>
+         <size>0.0947916666666667 0.0277777777777778</size>
       </text>
       <datetime name="md_lastplayed">
-         <pos>0.20625 0.6</pos>
-         <size>0.208 0.0361111111111111</size>
+         <pos>0.2083333333333333 0.6444444444444444</pos>
+         <size>0.15625 0.0277777777777778</size>
       </datetime>
+
+      <image name="md_lbl_players_slash" extra="true">
+         <origin>0 0</origin>
+         <pos>0.1020833333333333 0.6861111111111111</pos>
+         <maxSize>0.009375 0.0277777777777778</maxSize>
+         <path>./../images/metadata.svg</path>
+      </image>
       <text name="md_lbl_players">
-         <pos>0.1 0.635</pos>
-         <size>0.0677083333333333 0.0361111111111111</size>
+         <pos>0.1135416666666667 0.6861111111111111</pos>
+         <size>0.0635416666666667 0.0277777777777778</size>
       </text>
       <text name="md_players">
-         <pos>0.1677083333333333 0.635</pos>
-         <size>0.0385416666666667 0.0361111111111111</size>
+         <pos>0.1770833333333333 0.6861111111111111</pos>
+         <size>0.0375 0.0277777777777778</size>
       </text>
+
+      <image name="md_releasedate_slash" extra="true">
+         <origin>0 0</origin>
+         <pos>0.2145833333333333 0.6861111111111111</pos>
+         <maxSize>0.009375 0.0277777777777778</maxSize>
+         <path>./../images/metadata.svg</path>
+      </image>
       <datetime name="md_releasedate">
-         <pos>0.2062 0.635</pos>
-         <size>0.11 0.0361111111111111</size>
+         <pos>0.2260416666666667 0.6861111111111111</pos>
+         <size>0.1010416666666667 0.0277777777777778</size>
       </datetime>
+
+      <image name="md_genre_slash" extra="true">
+         <origin>0 0</origin>
+         <pos>0.3270833333333333 0.6861111111111111</pos>
+         <maxSize>0.009375 0.0277777777777778</maxSize>
+         <path>./../images/metadata.svg</path>
+      </image>
       <text name="md_genre">
-         <pos>0.33 0.635</pos>
-         <size>0.11 0.0361111111111111</size>
+         <pos>0.3385416666666667 0.6861111111111111</pos>
+         <size>0.0989583333333333 0.0277777777777778</size>
       </text>
+
       <text name="md_description">
-         <pos>0.1 0.69</pos>
-         <size>0.35 0.139</size>
+         <pos>0.1020833333333333 0.7416666666666667</pos>
+         <size>0.3354166666666667 0.1472222222222222</size>
          <color>999999</color>
+         <fontSize>0.025</fontSize>
       </text>
+
       <textlist name="gamelist">
-         <pos>0.566 0.175</pos>
-         <size>0.35 0.675</size>
+         <pos>0.5625 0.1958333333333333</pos>
+         <size>0.3354166666666667 0.6944444444444444</size>
          <alignment>left</alignment>
       </textlist>
    </view>
@@ -132,19 +184,19 @@ based on:       "Carbon" by Eric Hettervik
    <view name="detailed">
       <image name="crt-bezel" extra="true">
          <origin>0.5 0.5</origin>
-         <pos>0.2666666666666667 0.35</pos>
-         <size>0.4020833333333333 0.425</size>
+         <pos>0.2697916666666667 0.3666666666666667</pos>
+         <maxSize>0.35625 0.3638888888888889</maxSize>
          <path>./../images/crt-bezel.svg</path>
       </image>
       <image name="md_image">
          <origin>0.5 0.5</origin>
-         <pos>0.2666666666666667 0.35</pos>
+         <pos>0.2697916666666667 0.3666666666666667</pos>
          <maxSize>0.3333333333333333 0.3333333333333333</maxSize>
       </image>
       <image name="crt-screen" extra="true">
          <origin>0.5 0.5</origin>
-         <pos>0.2666666666666667 0.35</pos>
-         <size>0.4020833333333333 0.425</size>
+         <pos>0.2697916666666667 0.3666666666666667</pos>
+         <maxSize>0.3333333333333333 0.3333333333333333</maxSize>
          <path>./../images/crt-screen.svg</path>
       </image>
    </view>
@@ -153,22 +205,23 @@ based on:       "Carbon" by Eric Hettervik
       <view name="video">
          <image name="crt-bezel" extra="true">
             <origin>0.5 0.5</origin>
-            <pos>0.2666666666666667 0.35</pos>
-            <size>0.4020833333333333 0.425</size>
+            <pos>0.2697916666666667 0.3666666666666667</pos>
+            <maxSize>0.35625 0.3638888888888889</maxSize>
             <path>./../images/crt-bezel.svg</path>
          </image>
          <image name="md_image">
             <origin>1 1</origin>
-            <pos>0.45625 0.5305555555555556</pos>
+            <pos>0.453125 0.55</pos>
             <maxSize>0.1354166666666667 0.1805555555555556</maxSize>
          </image>
          <image name="md_marquee">
-            <origin>0 0</origin>
-            <pos>1 1</pos>
+            <origin>0 1</origin>
+            <pos>0.0864583333333333 0.55</pos>
+            <maxSize>0.1354166666666667 0.1805555555555556</maxSize>
          </image>
          <video name="md_video">
             <origin>0.5 0.5</origin>
-            <pos>0.2666666666666667 0.35</pos>
+            <pos>0.2697916666666667 0.3666666666666667</pos>
             <maxSize>0.3333333333333333 0.3333333333333333</maxSize>
             <delay>0.5</delay>
             <default>./../videos/static.mp4</default>
@@ -188,8 +241,8 @@ based on:       "Carbon" by Eric Hettervik
          </image>
          <image name="crt-screen" extra="true">
             <origin>0.5 0.5</origin>
-            <pos>0.2666666666666667 0.35</pos>
-            <size>0.4020833333333333 0.425</size>
+            <pos>0.2697916666666667 0.3666666666666667</pos>
+            <maxSize>0.3333333333333333 0.3333333333333333</maxSize>
             <path>./../images/crt-screen.svg</path>
             <zIndex>1</zIndex>
          </image>
