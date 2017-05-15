@@ -5,6 +5,11 @@ A simple theme for Emulation Station and RetroPie with support for the video vie
 
 ### Updates
 
+*5/14/2017*
+- Added display of marquee image
+- Cleaned up layout of metadata
+- Added basic styling of carousel
+
 *5/3/2017*
 - Updated CRT Bezel images from PNG to SVG to help with clean scaling on different resolutions
 - Added future support for z-index layering being discussed in this thread - https://retropie.org.uk/forum/topic/9785/z-index-support-for-themes
@@ -34,16 +39,16 @@ https://www.youtube.com/embed/_elwCV5hxeA
 ### Screenshots
 
 *Video View*
-![Video View](http://i.imgur.com/e6y0kIl.png)
+![Video View](http://i.imgur.com/u8EfhV4.png)
 
 *Detailed View*
-![Detailed View](http://i.imgur.com/tA6mfEc.png)
+![Detailed View](http://i.imgur.com/Ii6lhrp.png)
 
 *Basic View*
 ![Basic View](http://i.imgur.com/npqHCZy.png)
 
 *4x3 Layout*
-![Basic View](http://i.imgur.com/pubsyyv.png)
+![Basic View](http://i.imgur.com/9hqpKPz.png)
 
 [For more images view the album on Imgur](http://imgur.com/a/w7JNT)
 
@@ -64,7 +69,6 @@ https://www.youtube.com/embed/_elwCV5hxeA
 
 ## Possible Future Updates
 
-- Support for marquee tag
 - System specific backgrounds that match historical poster designs for a given system (I built an NES example to check out here: http://i.imgur.com/XCx3Tko.png)
 - Grid view support
 
