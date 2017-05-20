@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="262px" height="342px" viewBox="0 0 262 343" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <pattern id="pattern-0" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" viewBox="0 0 100 100">
+      <path d="M 0 0 L 50 0 L 50 100 L 0 100 Z" style="fill: black;"/>
+    </pattern>
+  </defs>
+  <g transform="matrix(0, 1, -1, 0, 285.13501, -21.240999)" bx:origin="0 1">
+    <rect x="32.692" y="33.64" width="320" height="240" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M 37.612 38.114 C 45.262 25.814 353.144 28.519 347.176 38.114 C 357.555 37.621 358.851 268.623 347.176 269.177 C 348.74 280.075 39.201 280.244 37.612 269.177 C 26.619 267.092 26.534 36.014 37.612 38.114 Z" style="stroke-linejoin: round; fill: none; stroke: rgb(0, 0, 0); stroke-width: 6;"/>
+    <path d="M 32.692 33.64 C 40.6 20.865 358.861 23.674 352.692 33.64 C 363.421 33.129 364.76 273.065 352.692 273.64 C 354.309 284.959 34.334 285.135 32.692 273.64 C 21.328 271.475 21.241 31.459 32.692 33.64 Z" style="stroke-linejoin: round; stroke-linecap: round; fill: none; stroke: rgb(234, 234, 234); stroke-width: 4;"/>
+  </g>
+</svg>
