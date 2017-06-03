@@ -179,6 +179,7 @@ based on:       "Carbon" by Eric Hettervik
          <pos>0.546875 0.23</pos>
          <size>0.29375 0.625</size>
          <alignment>left</alignment>
+         <horizontalMargin>0.00625</horizontalMargin>
       </textlist>
    </view>
 
