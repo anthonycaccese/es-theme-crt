@@ -62,7 +62,7 @@ based on:       "Carbon" by Eric Hettervik
       <textlist name="gamelist">
          <pos>0.1875 0.1958333333333333</pos>
          <size>0.625 0.6944444444444444</size>
-         <selectorColor>1c1c1c00</selectorColor>
+         <selectorColor>1c1c1caa</selectorColor>
          <selectedColor>bba358</selectedColor>
          <primaryColor>eaeaea</primaryColor>
          <secondaryColor>eaeaea</secondaryColor>
