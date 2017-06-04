@@ -43,7 +43,7 @@ based on:       "Carbon" by Eric Hettervik
       <image name="logo">
          <origin>0.5 0</origin>
          <pos>0.5 0.0694444444444444</pos>
-         <maxSize>0.3125 0.0555555555555556</maxSize>
+         <maxSize>0.234375 0.0555555555555556</maxSize>
       </image>
       <textlist name="gamelist">
          <pos>0.1875 0.1958333333333333</pos>
@@ -228,8 +228,8 @@ based on:       "Carbon" by Eric Hettervik
          </image>
          <image name="crt-screen" extra="true">
             <origin>0.5 0.5</origin>
-            <pos>0.32734375 0.3666666666666667</pos>
-            <maxSize>0.25 0.3333333333333333</maxSize>
+            <pos>0.2697916666666667 0.3666666666666667</pos>
+            <maxSize>0.3333333333333333 0.3333333333333333</maxSize>
             <path>./../images/crt-screen.svg</path>
             <zIndex>60</zIndex>
          </image>
