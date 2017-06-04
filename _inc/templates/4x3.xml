@@ -238,6 +238,9 @@ based on:       "Carbon" by Eric Hettervik
          <image name="md_image">
             <zIndex>120</zIndex>
          </image>
+         <image name="md_marquee">
+            <zIndex>120</zIndex>
+         </image>
          <image name="crt-bezel" extra="true">
             <zIndex>100</zIndex>
          </image>
