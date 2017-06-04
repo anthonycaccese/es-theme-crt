@@ -10,8 +10,13 @@ based on:       "Carbon" by Eric Hettervik
 <theme>
    <formatVersion>4</formatVersion>
 
-   <view name="system">
-      <image name="system-background" extra="true">
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <pos>1 1</pos>
+         <textColor>777777</textColor>
+         <iconColor>77777750</iconColor>
+      </helpsystem>
+      <image name="background" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
@@ -20,40 +25,21 @@ based on:       "Carbon" by Eric Hettervik
       </image>
    </view>
 
-   <view name="system,basic,detailed,video">
-      <helpsystem name="help">
-         <pos>1 1</pos>
-         <textColor>777777</textColor>
-         <iconColor>77777750</iconColor>
-      </helpsystem>
-   </view>
-
    <feature supported="carousel">
       <view name="system">
          <carousel name="systemcarousel">
             <type>horizontal</type>
-            <color>00000088</color>
-            <logoSize>0.234375 0.2083333333333333</logoSize>
-            <logoScale>1</logoScale>
-            <maxLogoCount>3</maxLogoCount>
+            <color>1c1c1cdd</color>
          </carousel>
          <text name="systemInfo">
-            <pos>0 0.58</pos>
-            <backgroundColor>000000ff</backgroundColor>
-            <color>444444</color>
+            <backgroundColor>1c1c1cdd</backgroundColor>
+            <color>777777</color>
             <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
-            <fontSize>0.025</fontSize>
          </text>
       </view>
    </feature>
 
    <view name="basic,detailed,video">
-      <image name="background">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <tile>true</tile>
-         <path>./../images/background.png</path>
-      </image>
       <image name="logo">
          <origin>0.5 0</origin>
          <pos>0.5 0.0694444444444444</pos>
@@ -235,28 +221,28 @@ based on:       "Carbon" by Eric Hettervik
    <feature supported="z-index">
       <view name="detailed,video">
          <image name="crt-bezel" extra="true">
-            <zIndex>4</zIndex>
+            <zIndex>100</zIndex>
          </image>
          <image name="md_image">
-            <zIndex>3</zIndex>
+            <zIndex>80</zIndex>
          </image>
          <image name="crt-screen" extra="true">
             <origin>0.5 0.5</origin>
             <pos>0.32734375 0.3666666666666667</pos>
             <maxSize>0.25 0.3333333333333333</maxSize>
             <path>./../images/crt-screen.svg</path>
-            <zIndex>1</zIndex>
+            <zIndex>60</zIndex>
          </image>
       </view>
       <view name="video">
          <image name="md_image">
-            <zIndex>4</zIndex>
+            <zIndex>120</zIndex>
          </image>
          <image name="crt-bezel" extra="true">
-            <zIndex>3</zIndex>
+            <zIndex>100</zIndex>
          </image>
          <video name="md_video">
-            <zIndex>2</zIndex>
+            <zIndex>80</zIndex>
          </video>
       </view>
    </feature>
