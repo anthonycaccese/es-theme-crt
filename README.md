@@ -45,7 +45,7 @@ https://www.youtube.com/embed/_elwCV5hxeA
 ![Detailed View](http://i.imgur.com/Ii6lhrp.png)
 
 *Basic View*
-![Basic View](http://i.imgur.com/npqHCZy.png)
+![Basic View](http://i.imgur.com/wmnw3hn.png)
 
 *4x3 Layout*
 ![Basic View](http://i.imgur.com/9hqpKPz.png)
