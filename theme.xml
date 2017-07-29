@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 theme name:     CRT
 version:        1.0
@@ -5,8 +6,6 @@ author:         Anthony
 license:        creative commons CC-BY-NC-SA
 based on:       "Carbon" by Eric Hettervik
 -->
-
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>4</formatVersion>
    <include>./_inc/templates/16x9.xml</include>
