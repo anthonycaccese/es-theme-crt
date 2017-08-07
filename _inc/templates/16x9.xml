@@ -217,13 +217,13 @@
          <image name="md_image">
             <zIndex>80</zIndex>
          </image>
-         <image name="crt-screen" extra="true">
+         <!--<image name="crt-screen" extra="true">
             <origin>0.5 0.5</origin>
             <pos>0.32734375 0.3666666666666667</pos>
             <maxSize>0.25 0.3333333333333333</maxSize>
             <path>./../images/crt-screen.svg</path>
             <zIndex>60</zIndex>
-         </image>
+         </image>-->
       </view>
       <view name="video">
          <image name="md_image">
