@@ -37,8 +37,8 @@
          <maxSize>0.234375 0.0555555555555556</maxSize>
       </image>
       <textlist name="gamelist">
-         <pos>0.1875 0.1958333333333333</pos>
-         <size>0.625 0.6944444444444444</size>
+         <pos>0.1875 0.180555555555556</pos>
+         <size>0.625 0.708333333333333</size>
          <selectorColor>1c1c1caa</selectorColor>
          <selectedColor>bba358</selectedColor>
          <primaryColor>eaeaea</primaryColor>
@@ -152,8 +152,8 @@
       </text>
 
       <textlist name="gamelist">
-         <pos>0.546875 0.1958333333333333</pos>
-         <size>0.29375 0.6944444444444444</size>
+         <pos>0.546875 0.180555555555556</pos>
+         <size>0.29375 0.708333333333333</size>
          <alignment>left</alignment>
          <horizontalMargin>0.00625</horizontalMargin>
       </textlist>
